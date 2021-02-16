@@ -1,4 +1,4 @@
-= Exelon: Image promotion using ConfigMaps in OpenShift 3
+= How to do Image promotion using ConfigMaps in OpenShift
 In this example, we're demonstrating how to promote images from environment to environment.
 While doing this promotion, we're using the same DeploymentConfiguration as we have all the Configuration required for the app externalized into a ConfigMap.
 The same ConfigMap is deployed in every environment, but with different values for the configuration

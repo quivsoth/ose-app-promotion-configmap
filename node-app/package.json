@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/jorgemoralespou/ose-app-promotion-configmap.git"
+    "url": "https://github.com/quivsoth/ose-app-promotion-configmap"
   },
   "keywords": [
     "Echo"

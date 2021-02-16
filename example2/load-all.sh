@@ -1,9 +1,10 @@
 #!/bin/sh
 
 # You need 2 users (dev and test)
-
+# please add your OCP instance and user/password here
 oc login 10.2.2.2:8443 -u dev -p dev
 oc new-project node-app-dev
+
 oc create -f configmap-dev.json
 oc create -f node-app-deployment.json
 oc create -f node-app-build.json
